@@ -1,0 +1,14 @@
+.centered-text {
+    text-align: center;
+  }
+  
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%; /* 2.5 times the original size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

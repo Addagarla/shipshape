@@ -1,0 +1,58 @@
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+  }
+  /* src/app/app.component.css */
+.custom-button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: darkblue;
+}
+/* src/app/app.component.css */
+.custom-label {
+  color: black;
+  font-size: 20px;
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+  display: block; /* Makes it a block-level element */
+}
+
+/* src/app/app.component.css */
+.form-control {
+  border: 1px solid blue;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: darkblue;
+  outline: none;
+}
+
+
